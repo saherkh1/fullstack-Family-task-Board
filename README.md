@@ -1,4 +1,4 @@
-# Assignee tasks to family members - fullstack 3rd assignment
+# Family Task Board - fullstack 3rd assignment
 
   - Front: Angular web application 
   
@@ -6,29 +6,40 @@
   
   - Database: MongoDB 
   
-  
-  
-Web Application to help manage and assignee home tasks to family members
+Web Application to help manage and assignee home tasks to family members, with an impressive looking board By **SaherKh**
  
 ## Get started
 
 ### Clone the repo
 
 ```shell
-git clone https://github.com/bryanforbes/intern-angular
-cd intern-angular
+git clone https://github.com/saherkh1/fullstack-Family-task-Board
+cd fullstack-Family-task-Board
 ```
 
-### Install npm packages
+### Install npm packages - Frontend
 
 Install the `npm` packages described in the `package.json` and verify that it works:
 
 ```shell
+cd Frontend
 npm install
 npm start
 ```
 
 The `npm start` command builds (compiles TypeScript and copies assets) the application into `dist/`, watches for changes to the source files, and runs `lite-server` on port `3000`.
+
+### Install npm packages - Backend
+
+Install the `npm` packages described in the `package.json` and verify that it works:
+
+```shell
+cd ../backend
+npm install
+node app
+```
+
+The `node app` command builds the application and runs on port `3001`.
 
 Shut it down manually with `Ctrl-C`.
 
